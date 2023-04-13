@@ -11,6 +11,8 @@ import com.formacionbdi.springboot.app.productos.models.entity.Producto;
 
 @Service
 public class ProductoServiceImpl implements IProductoService{
+	
+	private String dato;
 
 	@Autowired
 	private ProductoDao productoDao;
